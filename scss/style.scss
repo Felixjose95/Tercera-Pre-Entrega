@@ -1,0 +1,42 @@
+/**primero se llaman a las variables y a las mixins*/
+
+@import "../utilities/variables";
+@import "../utilities/mixins.scss";
+
+
+/**segundo el reser y las tipografias*/
+
+@import "../base/reset";
+
+
+/**la parte del layout*/
+
+@import "../layout/media/header";
+@import "../layout/footer";
+@import "../layout/media/main.index";
+
+
+
+/** componentes **/
+
+
+
+
+
+
+/**mediaquery**/
+
+@import "../layout/media/media480";
+@import "../layout/media/media320";
+@import "../layout/media/main-contactos";
+@import "../layout/media/main-contactos";
+
+
+/**responsive de grande a chico**/
+
+/**NB DE CHICO A GRANDE**/
+
+
+
+
+
