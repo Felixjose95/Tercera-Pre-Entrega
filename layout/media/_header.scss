@@ -1,0 +1,25 @@
+header{
+    background-color: $background-principal;
+   @include flex;  
+  div{
+    background-color: lightcoral;
+  }
+  nav{
+    ul{
+        @include flex(row,nowrap,space-between,center,1.25rem);
+        
+        gap: 1.25rem;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: $color-fuentes-principal;
+                font-size: 1.25rem;
+                    &:hover{
+                    color: blue;
+                }
+            }
+        }
+    }
+  }
+}

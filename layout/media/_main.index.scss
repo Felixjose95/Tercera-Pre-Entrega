@@ -1,0 +1,42 @@
+.main-index{
+    background-color: rgba(0, 0, 0, 0.241);
+
+    .section-principal{
+        text-align: center;
+        background-color: $background-principal;
+        h1{
+            font-size: 1.875rem;
+            text-decoration: underline;
+            padding: 20px 0px;
+            color: $color-fuentes-principal;
+        }
+        p{
+            letter-spacing: 10px;
+        }
+    
+}
+}
+
+.section-secundaria{
+    font-size: 1.25rem;
+    color: pink;
+    background-color: aqua;
+    padding: 1.25rem 1.25rem;
+}
+
+.section-tres{
+    @extend .section-secundaria;
+    background-color: blueviolet;
+}
+.tienda{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 15% 15% 30%;
+    grid-template-areas: 
+    "item1 item2 item5"
+    "item3 item4 item5"
+    ;
+    justify-content: center;
+    gap: 1.25rem;
+    color: #D962A3;
+}

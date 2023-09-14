@@ -1,0 +1,58 @@
+/**primero se llaman a las variables y a las mixins*/
+/**segundo el reser y las tipografias*/
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/**la parte del layout*/
+header {
+  background-color: rgb(0, 179, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+}
+header div {
+  background-color: lightcoral;
+}
+header nav ul {
+  display: flex;
+  gap: 1.25rem;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+header nav ul li a:hover {
+  color: blue;
+}
+
+.main-index {
+  background-color: rgba(0, 0, 0, 0.241);
+}
+.main-index .section-principal {
+  text-align: center;
+  background-color: rgb(0, 179, 255);
+}
+.main-index .section-principal h1 {
+  font-size: 1.875rem;
+  text-decoration: underline;
+  padding: 20px 0px;
+  color: white;
+}
+.main-index .section-principal p {
+  letter-spacing: 10px;
+}
+
+/** componentes **/
+/**mediaquery**/
+/**responsive de grande a chico**/
+/**NB DE CHICO A GRANDE**/
+
+/*# sourceMappingURL=style.css.map */
